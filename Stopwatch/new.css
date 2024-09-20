@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000000; /* Dark background for contrast */
+    background: linear-gradient(to right, #1e1e1e, #3a3a3a); /* Subtle gradient */
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.stopwatch {
+    background: rgba(0, 0, 0, 0.8); /* Dark background with slight transparency */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.6); /* Neon cyan glow */
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+}
+
+#time {
+    font-size: 48px;
+    font-weight: bold;
+    color: #00ffff; /* Neon cyan */
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(45deg, #00ffff, #ff00ff); /* Neon gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 8px #00ffff, 0 0 16px #00ffff; /* Glowing effect */
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #ff00ff; /* Neon pink */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff; /* Glowing effect */
+}
+
+.btn:hover {
+    background: #ff66ff; /* Lighter neon pink */
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+.laps h2 {
+    color: #00ffff; /* Neon cyan */
+    text-shadow: 0 0 8px #00ffff, 0 0 16px #00ffff; /* Glowing effect */
+}
+
+.laps ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.laps li {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 14px;
+    color: #ff00ff; /* Neon pink */
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff; /* Glowing effect */
+}
